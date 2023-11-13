@@ -29,9 +29,8 @@ public class Cinema22{
         System.out.println(audience[3].length);
 
         System.out.println("Audiences in the row 3: ");
-        for (int i= 0; i<audience[2].length; i++) {
-            System.out.println(audience[2][i]);
+        for (String i : audience[2]) {
+            System.out.println(i);
         }
-   
     }
 }
