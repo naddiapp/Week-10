@@ -16,7 +16,7 @@ public class CinemaWithScanner22 {
             column = sc.nextInt();
             sc.nextLine();
 
-            audience[row - 1][column - 1] = name;
+            audience[row-1][column - 1] = name;
             System.out.print("Are there any other audiences to be added? (y/n): ");
             next = sc.nextLine();
 
@@ -26,3 +26,4 @@ public class CinemaWithScanner22 {
         }
     }
 }
+
