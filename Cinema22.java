@@ -27,10 +27,10 @@ public class Cinema22{
         System.out.println(audience[1].length);
         System.out.println(audience[2].length);
         System.out.println(audience[3].length);
-
         System.out.println("Audiences in the row 3: ");
-        for (String i : audience[2]) {
-            System.out.println(i);
+        
+        for (int i= 0; i<audience.length; i++) {
+            System.out.println("Audience in the row: " + (i+1)+ String.join(", ", audience[i]));
         }
     }
 }
